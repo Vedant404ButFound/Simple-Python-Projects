@@ -37,4 +37,4 @@ def create_xlsx(birthday_counts,filename='data'):
         df.to_excel(f'{filename}.xlsx',index=False)
         os.remove(f'{filename}.csv')
     except Exception as error:
-        print(er)
+        print(error)
