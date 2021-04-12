@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import os
 
-txtPath = r'C:\Users\MUDRA\Desktop\requirements.txt'
+txtPath = r'C:\Users\{username}\Desktop\requirements.txt'
 csvPath = r"F:\Python\Practice programms\Modules.csv"
 with open(csvPath,'w') as f:
     f.write("Module name,Version")
